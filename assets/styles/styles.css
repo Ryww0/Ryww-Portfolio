@@ -129,3 +129,17 @@ p {
   width: auto;
   padding-left: 0;
 }
+
+.work-bg-hover {
+  background-color: var(--fg1);
+  color: var(--bg1);
+  transition: 500ms ease-in-out;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.work-details {
+  color: var(--bg1);
+}

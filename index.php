@@ -128,8 +128,17 @@
     <div class="pt-5 pb-5">
         <!-- num is on right -->
         <div class="row col-12 d-flex justify-content-between mb-5">
-            <div class="row col-11 h50 outline">
-
+            <div class="row col-11 h50 outline d-flex align-items-center justify-content-between card-work-1">
+                <div class="w-auto">
+                    <h2>Library Management</h2>
+                </div>
+                <div class="w-auto">
+                    <ul class="work-details">
+                        <li>_MVC architectural pattern</li>
+                        <li>_Object-oriented programming</li>
+                        <li>_CRUD</li>
+                    </ul>
+                </div>
             </div>
             <div class="row col-1 h50 br relative">
                 <span class="pbr0">01</span>
@@ -140,14 +149,32 @@
             <div class="row col-1 h50 bl relative">
                 <span class="pbl0">02</span>
             </div>
-            <div class="row col-11 h50 outline">
-
+            <div class="row col-11 h50 outline d-flex align-items-center justify-content-between flex-row-reverse card-work-1">
+                <div class="w-auto">
+                    <h2>Pokedex</h2>
+                </div>
+                <div class="w-auto">
+                    <ul class="work-details">
+                        <li>_Using API</li>
+                        <li>_Javascript project</li>
+                        <li>_CSS elabored design</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- num is on right -->
         <div class="row col-12 d-flex justify-content-between mb-5">
-            <div class="row col-11 h50 outline">
-
+            <div class="row col-11 h50 outline d-flex align-items-center justify-content-between card-work-1">
+                <div class="w-auto">
+                    <h2>Ace Bakery</h2>
+                </div>
+                <div class="w-auto">
+                    <ul class="work-details">
+                        <li>_Team working</li>
+                        <li>_Dynamic page with JS</li>
+                        <li>_graphic design</li>
+                    </ul>
+                </div>
             </div>
             <div class="row col-1 h50 br relative">
                 <span class="pbr0">03</span>

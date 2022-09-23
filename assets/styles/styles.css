@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--fg1);
+}
+
+:root {
+  --fg1: #293845;
+  --bg1: #7cecbd;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: var(--bg1);
+  color: var(--fg1);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2rem;
+  writing-mode: vertical-rl;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 6rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+li {
+  font-size: 1rem;
+}
+
+p {
+  text-align: justify;
+  font-weight: 400;
+}
+
+.homepage {
+  height: 100vh;
+}
+
+.kyu {
+  height: 70%;
+}
+
+.h500 {
+  height: 500px !important;
+}
+.mt500 {
+  margin-top: 500px;
+}
+
+.card-skills-title {
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+}
+
+.test {
+  height: 1500px;
+}

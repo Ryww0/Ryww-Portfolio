@@ -1,17 +1,17 @@
 <?php require('./partials/header.php'); ?>
 
-<section class="d-flex justify-content-between p-5 homepage">
-    <div class="text-uppercase">
+<section class="d-flex justify-content-between p-5 homepage col-12">
+    <div class="text-uppercase col-4">
         <h1>web developer</h1>
         <h2>chaitas laurent</h2>
         <h3>ウェブ開発者</h3>
     </div>
 
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center col-4">
         <img class="kyu" src="./assets/Images/kywbe_logo.png" alt="">
     </div>
 
-    <div class="d-flex flex-column justify-content-between">
+    <div class="d-flex flex-column justify-content-between col-4 align-items-end">
         <div>
             <h4>based in Lyon, France</h4>
         </div>
@@ -35,9 +35,9 @@
             <div class="me-3">
                 <h3>わたし</h3>
             </div>
-            <div class="position-relative">
+            <div class="position-relative col-6">
                 <h2>Me, <br> myself <br> and I</h2>
-                <p>*This is a Quotes to modify*</p>
+                <p class="fst-italic">“If you want to know who you are, you have to look at your real self and acknowledge what you see.”</p>
                 <h5 class="position-absolute nums">01</h5>
             </div>
         </div>
@@ -71,9 +71,9 @@
             <div class="me-3">
                 <h3>スキル</h3>
             </div>
-            <div class="position-relative">
+            <div class="position-relative col-6">
                 <h2>My <br> skills</h2>
-                <p>*This is a Quotes to modify*</p>
+                <p class="fst-italic">"If you can't fly, run. If you can't run, walk. If you can't walk, crawl, but by all means, keep mooving."</p>
                 <h5 class="position-absolute nums">02</h5>
             </div>
         </div>
@@ -118,9 +118,9 @@
             <div class="me-3">
                 <h3>プロジェクト</h3>
             </div>
-            <div class="position-relative">
+            <div class="position-relative col-6">
                 <h2>My <br> projects</h2>
-                <p>*This is a Quotes to modify*</p>
+                <p class="fst-italic">"Why? Because we f****** can! Because we f****** can, and if we can, we do."</p>
                 <h5 class="position-absolute nums">03</h5>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <?php require('./partials/header.php'); ?>
 
-<section class="d-flex justify-content-between p-3 homepage">
+<section class="d-flex justify-content-between p-5 homepage">
     <div class="text-uppercase">
         <h1>web developer</h1>
         <h2>chaitas laurent</h2>
@@ -35,9 +35,10 @@
             <div class="me-3">
                 <h3>わたし</h3>
             </div>
-            <div>
+            <div class="position-relative">
                 <h2>Me, <br> myself <br> and I</h2>
                 <p>*This is a Quotes to modify*</p>
+                <h5 class="position-absolute nums">01</h5>
             </div>
         </div>
         <div class="col-6 text-end">
@@ -70,9 +71,10 @@
             <div class="me-3">
                 <h3>スキル</h3>
             </div>
-            <div>
+            <div class="position-relative">
                 <h2>My <br> skills</h2>
                 <p>*This is a Quotes to modify*</p>
+                <h5 class="position-absolute nums">02</h5>
             </div>
         </div>
         <div class="col-6 text-end">
@@ -116,9 +118,10 @@
             <div class="me-3">
                 <h3>プロジェクト</h3>
             </div>
-            <div>
+            <div class="position-relative">
                 <h2>My <br> projects</h2>
                 <p>*This is a Quotes to modify*</p>
+                <h5 class="position-absolute nums">03</h5>
             </div>
         </div>
         <div class="col-6 text-end">

@@ -69,6 +69,9 @@ p {
 .h500 {
   height: 500px !important;
 }
+.h50 {
+  height: 180px;
+}
 .mt500 {
   margin-top: 500px;
 }
@@ -80,4 +83,49 @@ p {
 
 .test {
   height: 1500px;
+}
+
+.outline {
+  outline: var(--fg1) 1px solid;
+}
+
+/* portfolio litle line */
+.br {
+  position: relative;
+}
+
+.br::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80%;
+  border-right: 1px solid var(--fg1);
+}
+
+.bl {
+  position: relative;
+}
+
+.bl::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80%;
+  border-left: 1px solid var(--fg1);
+}
+.pbr0 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  padding-right: 0;
+}
+.pbl0 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  padding-left: 0;
 }

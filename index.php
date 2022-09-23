@@ -125,7 +125,34 @@
             <h6>さん</h6>
         </div>
     </div>
-    <div class="row col-12 d-flex justify-content-between pt-5 pb-5">
+    <div class="pt-5 pb-5">
+        <!-- num is on right -->
+        <div class="row col-12 d-flex justify-content-between mb-5">
+            <div class="row col-11 h50 outline">
+
+            </div>
+            <div class="row col-1 h50 br relative">
+                <span class="pbr0">01</span>
+            </div>
+        </div>
+        <!-- num is on left -->
+        <div class="row col-12 d-flex justify-content-between mb-5">
+            <div class="row col-1 h50 bl relative">
+                <span class="pbl0">02</span>
+            </div>
+            <div class="row col-11 h50 outline">
+
+            </div>
+        </div>
+        <!-- num is on right -->
+        <div class="row col-12 d-flex justify-content-between mb-5">
+            <div class="row col-11 h50 outline">
+
+            </div>
+            <div class="row col-1 h50 br relative">
+                <span class="pbr0">03</span>
+            </div>
+        </div>
     </div>
 </section>
 

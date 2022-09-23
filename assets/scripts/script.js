@@ -11,3 +11,9 @@ bgCardWork1.forEach((container) => {
     container.classList.remove("work-bg-hover");
   });
 });
+
+bgCardWork1.forEach((container) => {
+  container.addEventListener("click", () => {
+    window.location.href = "http://localhost/Portfolio%202.0/library.php";
+  });
+});

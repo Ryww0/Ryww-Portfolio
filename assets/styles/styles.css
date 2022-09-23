@@ -22,6 +22,15 @@ body {
   color: var(--fg1);
 }
 
+.color2 {
+  background-color: var(--fg1);
+  color: var(--bg1);
+  height: 100vh;
+}
+.color2 a {
+  color: var(--bg1);
+}
+
 h1 {
   font-size: 2.5rem;
 }
@@ -76,6 +85,9 @@ p {
 }
 .h50 {
   height: 180px;
+}
+.w1500 {
+  width: 1500px;
 }
 .mt500 {
   margin-top: 500px;
@@ -152,4 +164,11 @@ p {
 .nums {
   left: 25%;
   top: 0;
+}
+
+.bt-work-page {
+  border-top: 1px solid var(--bg1);
+}
+.bb-work-page {
+  border-bottom: 1px solid var(--bg1);
 }

@@ -6,7 +6,7 @@
             <h2>Pokedex</h2>
         </div>
         <div class="w-auto">
-            <a class="under-link2" href="./index.php">close</a>
+            <a class="under-link2" href="./index.php#work">close</a>
         </div>
     </div>
 
@@ -17,7 +17,7 @@
             </div>
             <div class="d-flex flex-column text-end">
                 <span class="bt-work-page bb-work-page pt-2 pb-2">2022</span>
-                <span class="bb-work-page pt-2 pb-2">Javascript & CSS</span>
+                <span class="bb-work-page pt-2 pb-2">Javascript & CSS / API</span>
             </div>
         </div>
         <div class="col-6 h500 ps-5">

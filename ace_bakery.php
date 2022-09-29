@@ -6,7 +6,7 @@
             <h2>Ace Bakery</h2>
         </div>
         <div class="w-auto">
-            <a class="under-link2" href="./index.php">close</a>
+            <a class="under-link2" href="./index.php#work">close</a>
         </div>
     </div>
 

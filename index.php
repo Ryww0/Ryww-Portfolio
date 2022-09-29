@@ -20,12 +20,14 @@
             <h5>00_</h5>
             <div class="d-flex">
                 <h3>リユウ</h3>
-                <ul>
-                    <li><a class="under-link" href="#about">about</a></li>
-                    <li><a class="under-link" href="#skills">skills</a></li>
-                    <li><a class="under-link" href="#work">work</a></li>
-                    <li><a class="under-link" href="#contact">contact</a></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><a class="under-link" href="#about">about</a></li>
+                        <li><a class="under-link" href="#skills">skills</a></li>
+                        <li><a class="under-link" href="#work">work</a></li>
+                        <li><a class="under-link" href="#contact">contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
@@ -191,5 +193,32 @@
     </div>
 </section>
 
-<div class="test"></div>
+<footer id="contact" class="container mt500 mb-5">
+    <div class="col-6 d-flex">
+        <div class="me-3">
+            <h3>スキル</h3>
+        </div>
+        <div class="position-relative col-6">
+            <h2>Contact <br> me</h2>
+            <h5 class="position-absolute nums">04</h5>
+        </div>
+    </div>
+    <div class="mt-5 d-flex align-item-center justify-content-center">
+        <h2><a class="under-link" href="mailto:laurent.chaitas@gmail.com"><span class="big">Laurent.</span> <br> <span class="lil">Chaitas</span> <br> <span class="lessbig">@gmail.com</span></a></h2>
+        <div>
+            <ul class="d-flex justify-content-between ps-5 pe-5">
+                <li class="under-link m-5"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
+                <li class="under-link m-5"><a href="" target="_blank">Instagram</a></li>
+                <li class="under-link m-5"><a href="" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="m-5">
+
+    <div class="d-flex justify-content-center">
+        <span class="footer-text">Designed and developped by Ryww0 || Laurent Chaitas</span>
+    </div>
+</footer>
+
 <?php require('./partials/footer.php'); ?>

@@ -230,3 +230,21 @@ p {
 #profil-pic {
   height: 100%;
 }
+
+.big {
+  font-size: 2.5rem;
+}
+.lessbig {
+  font-size: 1.9rem;
+}
+.lil {
+  font-size: 4rem;
+}
+h2 a {
+  line-height: 0.8;
+}
+
+.footer-text {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}

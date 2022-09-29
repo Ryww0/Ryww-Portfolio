@@ -34,25 +34,25 @@ body {
   color: var(--bg1);
 }
 
+.montserrat {
+  font-family: "Montserrat";
+}
 h1 {
   font-size: 2.5rem;
 }
-
 h2 {
   font-size: 2rem;
   font-weight: 800;
+  font-family: "Rozha One", serif;
 }
-
 h3 {
   font-size: 2rem;
   writing-mode: vertical-rl;
   font-weight: 100;
 }
-
 h4 {
   font-size: 1rem;
 }
-
 h5 {
   font-size: 6rem;
   font-weight: 900;
@@ -61,7 +61,6 @@ h5 {
   z-index: -3;
   line-height: 0.8;
 }
-
 h6 {
   font-size: 1.5rem;
   font-weight: 800;
@@ -191,7 +190,7 @@ p {
 .under-link::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   right: 0;
   width: 20%;
   height: 3px;
@@ -203,4 +202,31 @@ p {
 .under-link:hover::before {
   right: 30%;
   transform: scaleX(3.5);
+}
+/* 
+* Underline animation on links for 2nd type of page
+*
+*/
+.under-link2 {
+  position: relative;
+}
+.under-link2::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  width: 20%;
+  height: 3px;
+  background: var(--bg1);
+  transform: scale(1);
+  transform-origin: top right;
+  transition: all 200ms ease-in-out;
+}
+.under-link2:hover::before {
+  right: 30%;
+  transform: scaleX(3.5);
+}
+
+#profil-pic {
+  height: 100%;
 }

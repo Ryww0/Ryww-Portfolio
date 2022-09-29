@@ -3,7 +3,7 @@
 <main class="p-5 color2 overflow-hidden">
     <div class="row col-12 d-flex justify-content-between">
         <div class="w-auto">
-            <h2>Library Management</h2>
+            <h2>Ace Bakery</h2>
         </div>
         <div class="w-auto">
             <a class="under-link2" href="./index.php">close</a>
@@ -17,7 +17,7 @@
             </div>
             <div class="d-flex flex-column text-end">
                 <span class="bt-work-page bb-work-page pt-2 pb-2">2022</span>
-                <span class="bb-work-page pt-2 pb-2">Back-end / CRUD / OOP</span>
+                <span class="bb-work-page pt-2 pb-2">Graphic Design / Team work / Javascript</span>
             </div>
         </div>
         <div class="col-6 h500 ps-5">

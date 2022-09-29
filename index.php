@@ -1,9 +1,10 @@
 <?php require('./partials/header.php'); ?>
 
-<section class="d-flex justify-content-between p-5 homepage col-12">
+<!-- HOME SECTION -->
+<section id="home" class="d-flex justify-content-between p-5 homepage col-12">
     <div class="text-uppercase col-4">
         <h1>web developer</h1>
-        <h2>chaitas laurent</h2>
+        <h2 class="montserrat">chaitas laurent</h2>
         <h3>ウェブ開発者</h3>
     </div>
 
@@ -20,16 +21,18 @@
             <div class="d-flex">
                 <h3>リユウ</h3>
                 <ul>
-                    <li class="under-link"><a href="#">about</a></li>
-                    <li class="under-link"><a href="#">work</a></li>
-                    <li class="under-link"><a href="#">contact</a></li>
+                    <li><a class="under-link" href="#about">about</a></li>
+                    <li><a class="under-link" href="#skills">skills</a></li>
+                    <li><a class="under-link" href="#work">work</a></li>
+                    <li><a class="under-link" href="#contact">contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container mt500">
+<!-- ABOUT SECTION -->
+<section id="about" class="container mt500">
     <div class="row col-12">
         <div class="col-6 d-flex">
             <div class="me-3">
@@ -59,13 +62,14 @@
                 <li class="under-link"><a href="" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
-        <div class="col-6 overflow-hidden h500 ps-5">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/A_black_image.jpg" alt="">
+        <div class="col-6 overflow-hidden h500 ps-5 d-flex justify-content-center">
+            <img id="profil-pic" src="./assets/Images/peepo_batman.png" alt="">
         </div>
     </div>
 </section>
 
-<section class="container mt500">
+<!-- SKILLS SECTION -->
+<section id="skills" class="container mt500">
     <div class="row col-12">
         <div class="col-6 d-flex">
             <div class="me-3">
@@ -84,7 +88,7 @@
     <div class="row col-12 d-flex justify-content-between pt-5 pb-5">
         <div class="d-flex col-3">
             <div class="d-flex flex-row-reverse me-3">
-                <h2 class="card-skills-title">front-end</h2>
+                <h2 class="card-skills-title montserrat">front-end</h2>
                 <h3>フロント エンド</h3>
             </div>
             <p>
@@ -93,7 +97,7 @@
         </div>
         <div class="d-flex col-3">
             <div class="d-flex flex-row-reverse me-3">
-                <h2 class="card-skills-title">back-end</h2>
+                <h2 class="card-skills-title montserrat">back-end</h2>
                 <h3>バックエンド</h3>
             </div>
             <p>
@@ -102,7 +106,7 @@
         </div>
         <div class="d-flex col-3">
             <div class="d-flex flex-row-reverse me-3">
-                <h2 class="card-skills-title">graphism</h2>
+                <h2 class="card-skills-title montserrat">graphism</h2>
                 <h3>グラフィックデザイン</h3>
             </div>
             <p>
@@ -112,7 +116,8 @@
     </div>
 </section>
 
-<section class="container mt500">
+<!-- WORK SECTION -->
+<section id="work" class="container mt500">
     <div class="row col-12">
         <div class="col-6 d-flex">
             <div class="me-3">

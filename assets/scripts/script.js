@@ -34,7 +34,7 @@ w2.addEventListener("mouseout", () => {
 
 // redirect on click
 w2.addEventListener("click", () => {
-  window.location.href = "http://localhost/Portfolio%202.0/library.php";
+  window.location.href = "http://localhost/Portfolio%202.0/pokedex.php";
 });
 
 // card work n°3 hover animation
@@ -51,5 +51,5 @@ w3.addEventListener("mouseout", () => {
 
 // redirect on click
 w3.addEventListener("click", () => {
-  window.location.href = "http://localhost/Portfolio%202.0/library.php";
+  window.location.href = "http://localhost/Portfolio%202.0/ace_bakery.php";
 });

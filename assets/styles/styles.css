@@ -7,6 +7,9 @@ a {
   text-decoration: none;
   color: var(--fg1);
 }
+a:hover {
+  color: var(--fg1);
+}
 
 :root {
   --fg1: #293845;
@@ -176,4 +179,28 @@ p {
 
 .fst-italic {
   font-size: 0.8rem;
+}
+
+/* 
+* Underline animation on links
+*
+*/
+.under-link {
+  position: relative;
+}
+.under-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 3px;
+  background: var(--fg1);
+  transform: scale(1);
+  transform-origin: top right;
+  transition: all 200ms ease-in-out;
+}
+.under-link:hover::before {
+  right: 30%;
+  transform: scaleX(3.5);
 }

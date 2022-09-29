@@ -20,9 +20,9 @@
             <div class="d-flex">
                 <h3>リユウ</h3>
                 <ul>
-                    <li>about</li>
-                    <li>work</li>
-                    <li>contact</li>
+                    <li class="under-link"><a href="#">about</a></li>
+                    <li class="under-link"><a href="#">work</a></li>
+                    <li class="under-link"><a href="#">contact</a></li>
                 </ul>
             </div>
         </div>
@@ -54,9 +54,9 @@
                 Aut suscipit fugit sed modi voluptas ut iusto fuga. Ex libero porro et autem quibusdam aut repudiandae voluptate est recusandae placeat sed libero laudantium hic doloribus esse. Aut modi atque aut obcaecati ducimus ab voluptatum assumenda.
             </p>
             <ul class="d-flex justify-content-around ps-5 pe-5">
-                <li>Github</li>
-                <li>Instagram</li>
-                <li>LinkedIn</li>
+                <li class="under-link"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
+                <li class="under-link"><a href="" target="_blank">Instagram</a></li>
+                <li class="under-link"><a href="" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
         <div class="col-6 overflow-hidden h500 ps-5">
@@ -131,7 +131,7 @@
     <div class="pt-5 pb-5">
         <!-- num is on right -->
         <div class="row col-12 d-flex justify-content-between mb-5">
-            <div class="row col-11 h50 outline d-flex align-items-center justify-content-between card-work-1">
+            <div id="w1" class="row col-11 h50 outline d-flex align-items-center justify-content-between card-work-1">
                 <div class="w-auto">
                     <h2>Library Management</h2>
                 </div>
@@ -152,7 +152,7 @@
             <div class="row col-1 h50 bl relative">
                 <span class="pbl0">02</span>
             </div>
-            <div class="row col-11 h50 outline d-flex align-items-center justify-content-between flex-row-reverse card-work-1">
+            <div id="w2" class="row col-11 h50 outline d-flex align-items-center justify-content-between flex-row-reverse card-work-1">
                 <div class="w-auto">
                     <h2>Pokedex</h2>
                 </div>
@@ -167,7 +167,7 @@
         </div>
         <!-- num is on right -->
         <div class="row col-12 d-flex justify-content-between mb-5">
-            <div class="row col-11 h50 outline d-flex align-items-center justify-content-between card-work-1">
+            <div id="w3" class="row col-11 h50 outline d-flex align-items-center justify-content-between card-work-1">
                 <div class="w-auto">
                     <h2>Ace Bakery</h2>
                 </div>

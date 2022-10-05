@@ -53,11 +53,10 @@
     <div class="row col-12 pt-5 pb-5">
         <div class="col-6 d-flex flex-column justify-content-between pe-5">
             <p>
-                Lorem ipsum dolor sit amet. Et doloribus sunt ad blanditiis nihil qui praesentium voluptatem in doloremque quos rerum omnis sed corrupti mollitia. Est nobis dolores a enim At laudantium maiores in voluptatum dolore. Aut quod ratione est quaerat omnis rem eveniet aliquid 33 autem aliquid in adipisci quos aut ullam cupiditate.
+                Bienvenue sur mon portfolio ! Moi c'est Laurent, j'ai 23 ans et je suis développeur web. Diplomé d'un BAC STI2D j'ai finalement dirigé mon orientation professionelle vers la programmation.
             </p>
             <p>
-                Aut suscipit fugit sed modi voluptas ut iusto fuga. Ex libero porro et autem quibusdam aut repudiandae voluptate est recusandae placeat sed libero laudantium hic doloribus esse. Aut modi atque aut obcaecati ducimus ab voluptatum assumenda.
-            </p>
+                Passionné depuis plusieurs années déjà par le graphisme, j'ai découvert la programmation et le développement web et ai découvert un réel attrait pour ce domaine. C'est pourquoi j'ai choisi d'en faire mon futur métier pouvoir mettre mon "âme" d'artiste au service de mon code ! </p>
             <ul class="d-flex justify-content-around ps-5 pe-5">
                 <li class="under-link"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
                 <li class="under-link"><a href="" target="_blank">Instagram</a></li>

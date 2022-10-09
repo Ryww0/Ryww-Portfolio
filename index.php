@@ -53,10 +53,14 @@
     <div class="row col-12 pt-5 pb-5">
         <div class="col-6 d-flex flex-column justify-content-between pe-5">
             <p>
-                Bienvenue sur mon portfolio ! Moi c'est Laurent, j'ai 23 ans et je suis développeur web. Diplomé d'un BAC STI2D j'ai finalement dirigé mon orientation professionelle vers la programmation.
+                Welcome on my portfolio ! I am Laurent, 23 years old and I am web developer. I was studying
+                3D conception but I found my professional orientation in programming.
             </p>
             <p>
-                Passionné depuis plusieurs années déjà par le graphisme, j'ai découvert la programmation et le développement web et ai découvert un réel attrait pour ce domaine. C'est pourquoi j'ai choisi d'en faire mon futur métier et donc pouvoir mettre mon "âme" d'artiste au service de mon code ! </p>
+                Passionate with graphism for now few years, I discovered web developement and I realize that
+                I found my way. That's why I choosed to become web developer and use my graphism sensibility
+                in my code !
+            </p>
             <ul class="d-flex justify-content-around ps-5 pe-5">
                 <li class="under-link"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
                 <li class="under-link"><a href="" target="_blank">Instagram</a></li>
@@ -93,8 +97,8 @@
                 <h3>フロント エンド</h3>
             </div>
             <p>
-                Je suis capable de créer des maquettes graphiques, à l'aide de logiciels tel que Figma
-                ou Adobe XD, et aussi de les intégrer en utilisant les languages HTML, CSS et Javascript.
+                I am able to create graphic models thanks to softwares like Figma or Adobe XD, and embed it
+                also using langages HTML, CSS and Javascript.
             </p>
         </div>
         <div class="d-flex col-3">
@@ -103,7 +107,8 @@
                 <h3>バックエンド</h3>
             </div>
             <p>
-                Lorem ipsum dolor sit amet. Est eveniet aliquam cum eligendi molestias et veritatis illo est temporibus eveniet. Vel aspernatur iusto ut facilis sunt aut unde modi!
+                Using PHP, MySQL and PHP framework Symfony, I am able to create a website back-end respecting
+                UML and SOLID rules.
             </p>
         </div>
         <div class="d-flex col-3">
@@ -112,7 +117,9 @@
                 <h3>グラフィックデザイン</h3>
             </div>
             <p>
-                Lorem ipsum dolor sit amet. Est eveniet aliquam cum eligendi molestias et veritatis illo est temporibus eveniet. Vel aspernatur iusto ut facilis sunt aut unde modi!
+                I am familiar with graphic softwares, Illustrator, Procreate are some examples.
+                I kinda love to think about which color match with wich color with chromatic circle to get the
+                best visual website possible.
             </p>
         </div>
     </div>

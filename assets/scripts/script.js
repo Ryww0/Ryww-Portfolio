@@ -6,10 +6,13 @@ let w3 = document.getElementById("w3");
 // TO FIX
 const scrollContainer = document.querySelector(".scrolling-wrapper");
 
-scrollContainer.addEventListener("wheel", (evt) => {
-  evt.preventDefault();
-  scrollContainer.scrollLeft += evt.deltaY;
-});
+// check if exist to correct a bug :: conflict between this event and workCardHoverAnimation
+if (scrollContainer) {
+  scrollContainer.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+  });
+}
 
 function workCardHoverAnimation(card) {
   // add new style on hover

@@ -20,8 +20,8 @@
                 <span class="bb-work-page pt-2 pb-2">Back-end / CRUD / OOP</span>
             </div>
         </div>
-        <div class="col-6 h500 ps-5">
-            <img class="h500 w1500" src="https://upload.wikimedia.org/wikipedia/commons/4/49/A_black_image.jpg" alt="">
+        <div class="col-6 h500 ps-5 scrolling-wrapper">
+            <img class="h500 w1500" src="./assets/Images/test.jpg" alt="">
         </div>
     </section>
 </main>

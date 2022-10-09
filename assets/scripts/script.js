@@ -3,6 +3,14 @@ let w1 = document.getElementById("w1");
 let w2 = document.getElementById("w2");
 let w3 = document.getElementById("w3");
 
+// TO FIX
+const scrollContainer = document.querySelector(".scrolling-wrapper");
+
+scrollContainer.addEventListener("wheel", (evt) => {
+  evt.preventDefault();
+  scrollContainer.scrollLeft += evt.deltaY;
+});
+
 function workCardHoverAnimation(card) {
   // add new style on hover
   card.addEventListener("mouseover", () => {

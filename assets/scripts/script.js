@@ -3,53 +3,34 @@ let w1 = document.getElementById("w1");
 let w2 = document.getElementById("w2");
 let w3 = document.getElementById("w3");
 
-// card work n°1 hover animation
-//
-// event on hover
-w1.addEventListener("mouseover", () => {
-  w1.classList.add("work-bg-hover");
-});
+function workCardHoverAnimation(card) {
+  // add new style on hover
+  card.addEventListener("mouseover", () => {
+    card.classList.add("work-bg-hover");
+  });
 
-// even on out
-w1.addEventListener("mouseout", () => {
-  w1.classList.remove("work-bg-hover");
-});
+  // remove the new style on mouse out
+  card.addEventListener("mouseout", () => {
+    card.classList.remove("work-bg-hover");
+  });
 
-// redirect on click
-w1.addEventListener("click", () => {
-  window.location.href = "http://localhost/Portfolio%202.0/library.php";
-});
+  // TO MODIFY :: if tree that redirect to the right page on click the card
+  if (card == w1) {
+    card.addEventListener("click", () => {
+      window.location.href = "http://localhost/Portfolio%202.0/library.php";
+    });
+  } else if (card == w2) {
+    card.addEventListener("click", () => {
+      window.location.href = "http://localhost/Portfolio%202.0/pokedex.php";
+    });
+  } else if (card == w3) {
+    card.addEventListener("click", () => {
+      window.location.href = "http://localhost/Portfolio%202.0/ace_bakery.php";
+    });
+  }
+}
 
-// card work n°2 hover animation
-//
-// event on hover
-w2.addEventListener("mouseover", () => {
-  w2.classList.add("work-bg-hover");
-});
-
-// even on out
-w2.addEventListener("mouseout", () => {
-  w2.classList.remove("work-bg-hover");
-});
-
-// redirect on click
-w2.addEventListener("click", () => {
-  window.location.href = "http://localhost/Portfolio%202.0/pokedex.php";
-});
-
-// card work n°3 hover animation
-//
-// event on hover
-w3.addEventListener("mouseover", () => {
-  w3.classList.add("work-bg-hover");
-});
-
-// even on out
-w3.addEventListener("mouseout", () => {
-  w3.classList.remove("work-bg-hover");
-});
-
-// redirect on click
-w3.addEventListener("click", () => {
-  window.location.href = "http://localhost/Portfolio%202.0/ace_bakery.php";
-});
+// initialization for all the cards
+workCardHoverAnimation(w1);
+workCardHoverAnimation(w2);
+workCardHoverAnimation(w3);

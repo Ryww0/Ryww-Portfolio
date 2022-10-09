@@ -56,7 +56,7 @@
                 Bienvenue sur mon portfolio ! Moi c'est Laurent, j'ai 23 ans et je suis développeur web. Diplomé d'un BAC STI2D j'ai finalement dirigé mon orientation professionelle vers la programmation.
             </p>
             <p>
-                Passionné depuis plusieurs années déjà par le graphisme, j'ai découvert la programmation et le développement web et ai découvert un réel attrait pour ce domaine. C'est pourquoi j'ai choisi d'en faire mon futur métier pouvoir mettre mon "âme" d'artiste au service de mon code ! </p>
+                Passionné depuis plusieurs années déjà par le graphisme, j'ai découvert la programmation et le développement web et ai découvert un réel attrait pour ce domaine. C'est pourquoi j'ai choisi d'en faire mon futur métier et donc pouvoir mettre mon "âme" d'artiste au service de mon code ! </p>
             <ul class="d-flex justify-content-around ps-5 pe-5">
                 <li class="under-link"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
                 <li class="under-link"><a href="" target="_blank">Instagram</a></li>
@@ -64,7 +64,7 @@
             </ul>
         </div>
         <div class="col-6 overflow-hidden h500 ps-5 d-flex justify-content-center">
-            <img id="profil-pic" src="./assets/Images/peepo_batman.png" alt="">
+            <img id="profil-pic" src="./assets/Images/laurent.jpg_large" alt="">
         </div>
     </div>
 </section>
@@ -93,7 +93,8 @@
                 <h3>フロント エンド</h3>
             </div>
             <p>
-                Lorem ipsum dolor sit amet. Est eveniet aliquam cum eligendi molestias et veritatis illo est temporibus eveniet. Vel aspernatur iusto ut facilis sunt aut unde modi!
+                Je suis capable de créer des maquettes graphiques, à l'aide de logiciels tel que Figma
+                ou Adobe XD, et aussi de les intégrer en utilisant les languages HTML, CSS et Javascript.
             </p>
         </div>
         <div class="d-flex col-3">

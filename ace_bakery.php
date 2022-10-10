@@ -13,7 +13,11 @@
     <section class="row col-12 pt-5 pb-5">
         <div class="col-6 d-flex flex-column justify-content-between h500">
             <div>
-                <p>Qui nihil quos quo odio dolorem sit facere voluptate vel voluptates officia aut corrupti animi. Qui illo quae qui voluptas impedit eum tenetur officiis aut repellat quae. Est libero galisum ut sint corrupti aut corporis harum aut earum quasi in possimus perspiciatis.</p>
+                <p>
+                    This is my first team working website. The goal was to create a dynamic
+                    webpage using javascript. We designed a graphic model then embed it. We
+                    had to divide the chores and all work together using Github.
+                </p>
             </div>
             <div class="d-flex flex-column text-end">
                 <span><a href="https://ryww0.github.io/Ace_Bakery/" target="_blank">https://ryww0.github.io/Ace_Bakery/</a></span>

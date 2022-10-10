@@ -25,7 +25,7 @@
                 <span class="bb-work-page pt-2 pb-2">Graphic Design / Team work / Javascript</span>
             </div>
         </div>
-        <div class="col-6 h500 ps-5 scrolling-wrapper">
+        <div class="col-12 h500 ps-5 scrolling-wrapper">
             <img class="h500" src="./assets/Images/ace_bakery.png" alt="">
         </div>
     </section>

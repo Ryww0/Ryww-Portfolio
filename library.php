@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <section class="row col-12 pt-5 pb-5 position-relative">
+    <section class="row col-12 pt-5 pb-5">
         <div class="col-6 d-flex flex-column justify-content-between h500">
             <div>
                 <p>

@@ -23,6 +23,7 @@ body {
   font-size: 20px;
   background-color: var(--bg1);
   color: var(--fg1);
+  overflow: hidden;
 }
 
 .color2 {

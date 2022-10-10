@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <section class="row col-12 pt-5 pb-5">
+    <section class="row col-12 pt-5 pb-5 position-relative">
         <div class="col-6 d-flex flex-column justify-content-between h500">
             <div>
                 <p>
@@ -25,7 +25,7 @@
                 <span class="bb-work-page pt-2 pb-2">Back-end / CRUD / OOP</span>
             </div>
         </div>
-        <div class="col-6 h500 ps-5 scrolling-wrapper">
+        <div class="col-12 h500 ps-5 scrolling-wrapper">
             <img class="h500" src="./assets/Images/library.png" alt="">
         </div>
     </section>

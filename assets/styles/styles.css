@@ -251,7 +251,9 @@ h2 a {
 }
 
 .scrolling-wrapper {
+  position: absolute;
   overflow-x: scroll;
+  padding-left: 50vw !important;
 }
 .scrolling-wrapper::-webkit-scrollbar {
   display: none;

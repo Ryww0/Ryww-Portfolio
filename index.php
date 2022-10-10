@@ -63,8 +63,8 @@
             </p>
             <ul class="d-flex justify-content-around ps-5 pe-5">
                 <li class="under-link"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
-                <li class="under-link"><a href="" target="_blank">Instagram</a></li>
-                <li class="under-link"><a href="" target="_blank">LinkedIn</a></li>
+                <li class="under-link"><a href="https://www.instagram.com/lau_chts/" target="_blank">Instagram</a></li>
+                <li class="under-link"><a href="https://www.linkedin.com/in/laurent-chaitas-891746158/" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
         <div class="col-6 overflow-hidden h500 ps-5 d-flex justify-content-center">
@@ -215,8 +215,8 @@
         <div>
             <ul class="d-flex justify-content-between ps-5 pe-5">
                 <li class="under-link m-5"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
-                <li class="under-link m-5"><a href="" target="_blank">Instagram</a></li>
-                <li class="under-link m-5"><a href="" target="_blank">LinkedIn</a></li>
+                <li class="under-link m-5"><a href="https://www.instagram.com/lau_chts/" target="_blank">Instagram</a></li>
+                <li class="under-link m-5"><a href="https://www.linkedin.com/in/laurent-chaitas-891746158/" target="_blank">LinkedIn</a></li>
             </ul>
         </div>
     </div>

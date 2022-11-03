@@ -1,184 +1,208 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 a {
-  text-decoration: none;
-  color: var(--fg1);
+    text-decoration: none;
+    color: var(--fg1);
 }
+
 a:hover {
-  color: var(--fg1);
+    color: var(--fg1);
 }
 
 :root {
-  --fg1: #293845;
-  --bg1: #7cecbd;
-  --thirdColor: #917f51;
+    --fg1: #293845;
+    --bg1: #7cecbd;
+    --thirdColor: #917f51;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  background-color: var(--bg1);
-  color: var(--fg1);
-  overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--bg1);
+    color: var(--fg1);
+    width: 100vw !important;
 }
 
 .color2 {
-  background-color: var(--fg1);
-  color: var(--bg1);
-  height: 100vh;
+    background-color: var(--fg1);
+    color: var(--bg1);
+    height: 100vh;
 }
+
 .color2 a {
-  color: var(--bg1);
+    color: var(--bg1);
 }
 
 .montserrat {
-  font-family: "Montserrat";
+    font-family: "Montserrat";
 }
+
 h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
+
 h2 {
-  font-size: 2rem;
-  font-weight: 800;
-  font-family: "Rozha One", serif;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Rozha One", serif;
 }
+
 h3 {
-  font-size: 2rem;
-  writing-mode: vertical-rl;
-  font-weight: 100;
+    font-size: 2rem;
+    writing-mode: vertical-rl;
+    font-weight: 100;
 }
+
 h4 {
-  font-size: 1rem;
+    font-size: 1rem;
 }
+
 h5 {
-  font-size: 6rem;
-  font-weight: 900;
-  color: var(--thirdColor);
-  opacity: 0.3;
-  z-index: -3;
-  line-height: 0.8;
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--thirdColor);
+    opacity: 0.3;
+    z-index: -3;
+    line-height: 0.8;
 }
+
 h6 {
-  font-size: 1.5rem;
-  font-weight: 800;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
 li {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 p {
-  text-align: justify;
-  font-weight: 400;
+    text-align: justify;
+    font-weight: 400;
 }
 
 .homepage {
-  height: 100vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+.homepage div {
+    height: 100%;
+}
+
+.homepage div div {
+    height: auto;
 }
 
 .kyu {
-  height: 70%;
+    height: 70%;
 }
 
 .h500 {
-  height: 500px !important;
+    height: 500px !important;
 }
+
 .h50 {
-  height: 180px;
+    height: 180px;
 }
+
 .w1500 {
-  width: 1500px;
+    width: 1500px;
 }
+
 .mt500 {
-  margin-top: 500px;
+    margin-top: 500px;
 }
 
 .card-skills-title {
-  writing-mode: vertical-rl;
-  text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
 }
 
 .test {
-  height: 1500px;
+    height: 1500px;
 }
 
 .outline {
-  outline: var(--fg1) 1px solid;
+    outline: var(--fg1) 1px solid;
 }
 
 /* portfolio litle line */
 .br {
-  position: relative;
+    position: relative;
 }
 
 .br::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 80%;
-  border-right: 1px solid var(--fg1);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80%;
+    border-right: 1px solid var(--fg1);
 }
 
 .bl {
-  position: relative;
+    position: relative;
 }
 
 .bl::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 80%;
-  border-left: 1px solid var(--fg1);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80%;
+    border-left: 1px solid var(--fg1);
 }
+
 .pbr0 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  padding-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    padding-right: 0;
 }
+
 .pbl0 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: auto;
-  padding-left: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    padding-left: 0;
 }
 
 .work-bg-hover {
-  background-color: var(--fg1);
-  color: var(--bg1);
-  transition: 500ms ease-in-out;
+    background-color: var(--fg1);
+    color: var(--bg1);
+    transition: 500ms ease-in-out;
 }
 
 .w-auto {
-  width: auto;
+    width: auto;
 }
 
 .work-details {
-  color: var(--bg1);
+    color: var(--bg1);
 }
 
 .nums {
-  left: 25%;
-  top: 0;
+    left: 25%;
+    top: 0;
 }
 
 .bt-work-page {
-  border-top: 1px solid var(--bg1);
+    border-top: 1px solid var(--bg1);
 }
+
 .bb-work-page {
-  border-bottom: 1px solid var(--bg1);
+    border-bottom: 1px solid var(--bg1);
 }
 
 .fst-italic {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 /* 
@@ -186,76 +210,122 @@ p {
 *
 */
 .under-link {
-  position: relative;
+    position: relative;
 }
+
 .under-link::before {
-  content: "";
-  position: absolute;
-  bottom: -3px;
-  right: 0;
-  width: 20%;
-  height: 3px;
-  background: var(--fg1);
-  transform: scale(1);
-  transform-origin: top right;
-  transition: all 200ms ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    width: 20%;
+    height: 3px;
+    background: var(--fg1);
+    transform: scale(1);
+    transform-origin: top right;
+    transition: all 200ms ease-in-out;
 }
+
 .under-link:hover::before {
-  right: 30%;
-  transform: scaleX(3.5);
+    right: 30%;
+    transform: scaleX(3.5);
 }
-/* 
+
+/*
 * Underline animation on links for 2nd type of page
 *
 */
 .under-link2 {
-  position: relative;
+    position: relative;
 }
+
 .under-link2::before {
-  content: "";
-  position: absolute;
-  bottom: -3px;
-  right: 0;
-  width: 20%;
-  height: 3px;
-  background: var(--bg1);
-  transform: scale(1);
-  transform-origin: top right;
-  transition: all 200ms ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    width: 20%;
+    height: 3px;
+    background: var(--bg1);
+    transform: scale(1);
+    transform-origin: top right;
+    transition: all 200ms ease-in-out;
 }
+
 .under-link2:hover::before {
-  right: 30%;
-  transform: scaleX(3.5);
+    right: 30%;
+    transform: scaleX(3.5);
 }
 
 #profil-pic {
-  height: 100%;
-  border-radius: 3px;
+    height: 100%;
+    border-radius: 3px;
 }
 
 .big {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
+
 .lessbig {
-  font-size: 1.9rem;
+    font-size: 1.9rem;
 }
+
 .lil {
-  font-size: 4rem;
+    font-size: 4rem;
 }
+
 h2 a {
-  line-height: 0.8;
+    line-height: 0.8;
 }
 
 .footer-text {
-  font-size: 0.7rem;
-  opacity: 0.8;
+    font-size: 0.7rem;
+    opacity: 0.8;
 }
 
 .scrolling-wrapper {
-  position: absolute;
-  overflow-x: scroll;
-  padding-left: 50vw !important;
+    position: absolute;
+    overflow-x: scroll;
+    padding-left: 50vw !important;
 }
+
 .scrolling-wrapper::-webkit-scrollbar {
-  display: none;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        writing-mode: horizontal-tb;
+    }
+    h5 {
+        font-size: 3rem;
+    }
+
+    .div-logo {
+        height: 33% !important;
+    }
+
+    .kyu {
+        height: 100%;
+    }
+
+    .homepage div {
+        height: auto;
+    }
+
+    .nav {
+        align-items: center !important;
+    }
 }

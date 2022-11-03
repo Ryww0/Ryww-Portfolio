@@ -28,15 +28,15 @@ function workCardHoverAnimation(card) {
   // TO MODIFY :: if tree that redirect to the right page on click the card
   if (card == w1) {
     card.addEventListener("click", () => {
-      window.location.href = "http://localhost/Portfolio%202.0/library.php";
+      window.location.href = "http://www.ryww.fr/library";
     });
   } else if (card == w2) {
     card.addEventListener("click", () => {
-      window.location.href = "http://localhost/Portfolio%202.0/pokedex.php";
+      window.location.href = "http://www.ryww.fr/pokedex";
     });
   } else if (card == w3) {
     card.addEventListener("click", () => {
-      window.location.href = "http://localhost/Portfolio%202.0/ace_bakery.php";
+      window.location.href = "http://www.ryww.fr/ace_bakery";
     });
   }
 }

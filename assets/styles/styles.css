@@ -258,7 +258,7 @@ p {
 }
 
 #profil-pic {
-    height: 100%;
+    /*width: 100%;*/
     border-radius: 3px;
 }
 
@@ -296,7 +296,10 @@ h2 a {
 @media screen and (max-width: 768px) {
     body {
         text-align: center;
+        font-size: 16px;
+        overflow-x: hidden;
     }
+
     h1 {
         font-size: 1.5rem;
     }
@@ -307,10 +310,15 @@ h2 a {
 
     h3 {
         font-size: 1rem;
-        writing-mode: horizontal-tb;
+        /*writing-mode: horizontal-tb;*/
     }
+
     h5 {
         font-size: 3rem;
+    }
+
+    li {
+        font-size: 0.8rem;
     }
 
     .div-logo {
@@ -327,5 +335,38 @@ h2 a {
 
     .nav {
         align-items: center !important;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #home h3 {
+        writing-mode: horizontal-tb;
+    }
+
+    #profil-pic {
+        height: 60%;
+    }
+
+    .mt500 {
+        margin-top: 150px;
+    }
+
+    .footer-text {
+        font-size: 0.5rem;
+    }
+
+    .big {
+        font-size: 1.7rem;
+    }
+
+    .lessbig {
+        font-size: 0.9rem;
+    }
+
+    .lil {
+        font-size: 2rem;
     }
 }

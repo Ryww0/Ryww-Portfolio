@@ -36,7 +36,7 @@
     <!-- ABOUT SECTION -->
     <section id="about" class="container mt500">
         <div class="row col-12">
-            <div class="col-6 d-flex">
+            <div class="col-12 col-md-6 d-flex">
                 <div class="me-3">
                     <h3>わたし</h3>
                 </div>
@@ -47,12 +47,12 @@
                     <h5 class="position-absolute nums">01</h5>
                 </div>
             </div>
-            <div class="col-6 text-end">
+            <div class="col-12 col-md-6 text-end">
                 <h6>いち</h6>
             </div>
         </div>
-        <div class="row col-12 pt-5 pb-5">
-            <div class="col-6 d-flex flex-column justify-content-between pe-5">
+        <div class="row col-12 pt-5 pb-5 reverse">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-between pe-5">
                 <p>
                     Welcome on my portfolio ! I am Laurent, 23 years old and I am web developer. I was studying
                     3D conception but I found my professional orientation in programming.
@@ -70,69 +70,69 @@
                                               target="_blank">LinkedIn</a></li>
                 </ul>
             </div>
-            <div class="col-6 overflow-hidden h500 ps-5 d-flex justify-content-center">
+            <div class="col-12 col-md-6 overflow-hidden h500 ps-5 d-flex justify-content-center">
                 <img id="profil-pic" src="./assets/Images/laurent.jpg_large" alt="">
             </div>
         </div>
     </section>
 
     <!-- SKILLS SECTION -->
-<!--    <section id="skills" class="container mt500">-->
-<!--        <div class="row col-12">-->
-<!--            <div class="col-6 d-flex">-->
-<!--                <div class="me-3">-->
-<!--                    <h3>スキル</h3>-->
-<!--                </div>-->
-<!--                <div class="position-relative col-6">-->
-<!--                    <h2>My <br> skills</h2>-->
-<!--                    <p class="fst-italic">"If you can't fly, run. If you can't run, walk. If you can't walk, crawl, but-->
-<!--                        by all means, keep mooving."</p>-->
-<!--                    <h5 class="position-absolute nums">02</h5>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-6 text-end">-->
-<!--                <h6>に</h6>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row col-12 d-flex justify-content-between pt-5 pb-5">-->
-<!--            <div class="d-flex col-3">-->
-<!--                <div class="d-flex flex-row-reverse me-3">-->
-<!--                    <h2 class="card-skills-title montserrat">front-end</h2>-->
-<!--                    <h3>フロント エンド</h3>-->
-<!--                </div>-->
-<!--                <p>-->
-<!--                    I am able to create graphic models thanks to softwares like Figma or Adobe XD, and embed it-->
-<!--                    also using langages HTML, CSS and Javascript.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--            <div class="d-flex col-3">-->
-<!--                <div class="d-flex flex-row-reverse me-3">-->
-<!--                    <h2 class="card-skills-title montserrat">back-end</h2>-->
-<!--                    <h3>バックエンド</h3>-->
-<!--                </div>-->
-<!--                <p>-->
-<!--                    Using PHP, MySQL and PHP framework Symfony, I am able to create a website back-end respecting-->
-<!--                    UML and SOLID rules.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--            <div class="d-flex col-3">-->
-<!--                <div class="d-flex flex-row-reverse me-3">-->
-<!--                    <h2 class="card-skills-title montserrat">graphism</h2>-->
-<!--                    <h3>グラフィックデザイン</h3>-->
-<!--                </div>-->
-<!--                <p>-->
-<!--                    I am familiar with graphic softwares, Illustrator, Procreate are some examples.-->
-<!--                    I kinda love to think about which color match with wich color with chromatic circle to get the-->
-<!--                    best visual website possible.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+    <section id="skills" class="container mt500">
+        <div class="row col-12">
+            <div class="col-12 col-md-6 d-flex">
+                <div class="me-3">
+                    <h3>スキル</h3>
+                </div>
+                <div class="position-relative col-6">
+                    <h2>My <br> skills</h2>
+                    <p class="fst-italic">"If you can't fly, run. If you can't run, walk. If you can't walk, crawl, but
+                        by all means, keep mooving."</p>
+                    <h5 class="position-absolute nums">02</h5>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 text-end">
+                <h6>に</h6>
+            </div>
+        </div>
+        <div class="row col-12 d-flex justify-content-between pt-5 pb-5">
+            <div class="d-flex col-12 col-md-3">
+                <div class="d-flex flex-row-reverse me-3">
+                    <h2 class="card-skills-title montserrat">front-end</h2>
+                    <h3>フロント エンド</h3>
+                </div>
+                <p>
+                    I am able to create graphic models thanks to softwares like Figma or Adobe XD, and embed it
+                    also using langages HTML, CSS and Javascript.
+                </p>
+            </div>
+            <div class="d-flex col-12 col-md-3">
+                <div class="d-flex flex-row-reverse me-3">
+                    <h2 class="card-skills-title montserrat">back-end</h2>
+                    <h3>バックエンド</h3>
+                </div>
+                <p>
+                    Using PHP, MySQL and PHP framework Symfony, I am able to create a website back-end respecting
+                    UML and SOLID rules.
+                </p>
+            </div>
+            <div class="d-flex col-12 col-md-3">
+                <div class="d-flex flex-row-reverse me-3">
+                    <h2 class="card-skills-title montserrat">graphism</h2>
+                    <h3>グラフィックデザイン</h3>
+                </div>
+                <p>
+                    I am familiar with graphic softwares, Illustrator, Procreate are some examples.
+                    I kinda love to think about which color match with wich color with chromatic circle to get the
+                    best visual website possible.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- WORK SECTION -->
     <section id="work" class="container mt500">
         <div class="row col-12">
-            <div class="col-6 d-flex">
+            <div class="col-12 col-md-6 d-flex">
                 <div class="me-3">
                     <h3>プロジェクト</h3>
                 </div>
@@ -142,7 +142,7 @@
                     <h5 class="position-absolute nums">03</h5>
                 </div>
             </div>
-            <div class="col-6 text-end">
+            <div class="col-12 col-md-6 text-end">
                 <h6>さん</h6>
             </div>
         </div>
@@ -207,8 +207,9 @@
         </div>
     </section>
 
+    <!-- contact SECTION -->
     <footer id="contact" class="container mt500 mb-5">
-        <div class="col-6 d-flex">
+        <div class="col-12 col-md-6 d-flex">
             <div class="me-3">
                 <h3>スキル</h3>
             </div>
@@ -222,10 +223,10 @@
                     <span class="lil">Chaitas</span> <br> <span class="lessbig">@gmail.com</span></a></h2>
             <div>
                 <ul class="d-flex justify-content-between ps-5 pe-5">
-                    <li class="under-link m-5"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
-                    <li class="under-link m-5"><a href="https://www.instagram.com/lau_chts/"
+                    <li class="under-link me-1 me-md-5"><a href="https://github.com/Ryww0" target="_blank">Github</a></li>
+                    <li class="under-link me-1 me-md-5"><a href="https://www.instagram.com/lau_chts/"
                                                   target="_blank">Instagram</a></li>
-                    <li class="under-link m-5"><a href="https://www.linkedin.com/in/laurent-chaitas-891746158/"
+                    <li class="under-link me-1 me-md-5"><a href="https://www.linkedin.com/in/laurent-chaitas-891746158/"
                                                   target="_blank">LinkedIn</a></li>
                 </ul>
             </div>
@@ -233,8 +234,9 @@
 
         <hr class="m-5">
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center align-items-center flex-column">
             <span class="footer-text">Designed and developped by Ryww0 || Laurent Chaitas</span>
+            <span class="footer-text">available on <a href="https://github.com/Ryww0/Ryww-Portfolio" target="_blank">GitHub</a></span>
         </div>
     </footer>
 

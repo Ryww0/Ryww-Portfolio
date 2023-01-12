@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="col-12 h500 ps-5 scrolling-wrapper">
-            <img class="h500" src="./assets/Images/library.png" alt="">
+            <img class="h500" src="./assets/Images/notaresto.png" alt="">
         </div>
     </section>
 </main>

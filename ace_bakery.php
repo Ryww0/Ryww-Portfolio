@@ -11,7 +11,7 @@
     </div>
 
     <section class="row col-12 pt-5 pb-5">
-        <div class="col-6 d-flex flex-column justify-content-between h500">
+        <div class="col-10 col-md-6 d-flex flex-column justify-content-between h500">
             <div>
                 <p>
                     This is my first team working website. The goal was to create a dynamic

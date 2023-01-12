@@ -321,6 +321,10 @@ h2 a {
         font-size: 0.8rem;
     }
 
+    span {
+        font-size: 0.7rem;
+    }
+
     .div-logo {
         height: 33% !important;
     }
@@ -368,5 +372,9 @@ h2 a {
 
     .lil {
         font-size: 2rem;
+    }
+
+    .scrolling-wrapper {
+        padding-left: 66vw !important;
     }
 }
